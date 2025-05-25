@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Playas a Visitar</title>
+  <link rel="stylesheet" href="assets\style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <div class="grid-container">
+    <aside class="sidebar">
+      <div class="brand">
+        <h2>Paquetes Promocionales</h2>
+      </div>
+
+      <div class="logo-coin"><img src="assets/img/playa.png" alt=""></div>
+
+      <nav class="nav">
+        <a href="#">Inicio</a>
+        <a href="#Paquetes">Paquetes</a>  
+        <a href="#Contacto">Contacto</a>
+        <a href="#Galeria">Galeria</a>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+        <div class="hamburger-menu">
+    <span class="hamburger-icon" onclick="toggleMenu()">☰</span>
+  <span class="hamburger-title"></span>
+  <span>Paquetes Visitables</span>
+   </div>
+
+   <div class="mobile-nav" id="mobileNav">
+  <a href="#">Inicio </a>
+  <a href="#ofertas">Ofertas</a>
+  <a href="#contacto"> Contacto</a>
+</div>
+
+      <div class="top-bar">
+        <label for="ordenar">Ordenar Por:</label>
+        <select id="ordenar">
+          <option>Precio</option>
+          <option>Nombre</option>
+        </select>
+      </div>
+
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="assets/img/img1.jpg" alt="calcetin1">
+          <p>paquete panama</p>
+          <button>Ver más</button>
+        </div>
+
+        <div class="product-card">
+          <img src="assets/img/img2.jpg" alt="paquete colombia">
+          <p>paquete colombia</p>
+          <button>Ver más</button>
+        </div>
+
+        <div class="product-card">
+          <img src="assets/img/img3.jpg" alt="calcetin3">
+          <p>Model: calcetin3</p>
+          <button>Ver más</button>
+        </div>
+
+        <div class="product-card">
+          <img src="assets/img/img4.jpg" alt="calcetin4">
+          <p>Model: calcetin4</p>
+          <button>Ver más</button>
+        </div>
+
+        <div class="product-card">
+          <img src="assets/img/img5.jpg" alt="calcetin5">
+          <p>Model: calcetin5</p>
+          <button>Ver más</button>
+        </div>
+
+        <div class="product-card">
+          <img src="assets/img/img6.jpg" alt="calcetin6">
+          <p>Paquete Panama</p>
+          <button>Ver más</button>
+        </div>
+
+        <div class="product-card">
+          <img src="assets/img/img7.jpg" alt="calcetin 7">
+          <p>Paquete Venezuela</p>
+          <button>Ver más</button>
+        </div>
+        <div class="product-card">
+          <img src="assets/img/img8.jpg" alt="calcetin 7">
+          <p>Paquete Puerto Rico</p>
+          <button>Ver más</button>
+        </div>
+        <div class="product-card">
+          <img src="assets/img/img9.jpg" alt="calcetin 7">
+          <p>Paquete Venezuela</p>
+          <button>Ver más</button>
+        </div>
+      </div>
+
+      <div class="pagination">
+        <button>&lt;</button>
+        <button class="active">1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>&gt;</button>
+      </div>
+     
+      <section id="ofertas" class="ofertas-section">
+  <h2>Paquetes Disponibles</h2>
+  <div class="ofertas-grid">
+    <div class="oferta-card">
+      <img src="assets/img/hhfhfdfdhdfhdfh.jpg" alt="Paquete en oferta">
+      <h4>Paquete en oferta</h4>
+      <p><del>$2.000</del> <strong>$1.000</strong></p>
+    </div>
+    <div class="oferta-card">
+      <img src="assets/img/a27f91fb-3bcb-4871-828f-e4637bf84fe8.webp" alt="Paquete en oferta">
+      <h4>Paquete en oferta</h4>
+      <p><del>$3.000</del> <strong>$1.800</strong></p>
+    </div>
+  </div>
+</section>
+
+      <section id="contacto" class="contact-section">
+  <h2>Contáctanos</h2>
+  <form class="contact-form">
+    <input type="text" placeholder="Tu nombre" required>
+    <input type="email" placeholder="Tu correo" required>
+    <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
+    </main>
+<script>
+  function toggleMenu() {
+    const nav = document.getElementById("mobileNav");
+    nav.style.display = (nav.style.display === "flex") ? "none" : "flex";
+  }
+</script>
+  </div>
+  <div class="footer">
+        <p>Todos los Derechos Reservados 2025</p>
+        <p>Numero de telefono:+569200888825</p>
+        <p>Email: paqutesturisticos@gmail.com</p>
+         <div class="social-icons">
+      <a href="https://www.facebook.com/"><img src="https://cdn-icons-png.flaticon.com/24/733/733547.png" alt="Facebook"></a>
+      <a href="https://www.instagram.com/"><img src="https://cdn-icons-png.flaticon.com/24/733/733558.png" alt="Instagram"></a>
+    </div>
+
+</body>
+</html>
