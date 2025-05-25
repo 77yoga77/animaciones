@@ -12,19 +12,22 @@ body {
 
 .sidebar {
   grid-area: sidebar;
-  background-color: #1b6205;
+  background-color: #271de1;
   color: white;
   display: flex;
   flex-direction: column;
   padding: 20px;
+  text-align: center;
 }
 
 .logo-coin img{
  height: 150px;
  position: relative;
  transition: transform 0.5s ease;
+ text-align: center;
 }
-.logo-coin img:hover {
+
+.logo-coin img:hover { 
   transform: translateY(70px)
 }
 
@@ -205,7 +208,7 @@ body {
 
 .contact-section {
   padding: 40px 20px;
-  background-color: #4ebe94;
+  background-color: #5c62985e;
   text-align: center;
 }
 
@@ -247,7 +250,7 @@ body {
 
 .ofertas-section {
   padding: 40px 20px;
-  background-color: #e0f0ff;
+  background-color: #271de1;
   text-align: center;
   animation: text 5s linear infinite;
 }
